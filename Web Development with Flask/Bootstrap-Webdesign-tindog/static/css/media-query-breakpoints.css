@@ -1,0 +1,34 @@
+h1 {
+    font-size: 30px;
+}
+
+/*
+>990 px: desktop
+576-990 px: tablet
+<576 px: mobile
+*/
+
+@media (min-width: 900px) and (max-width: 1000px) {
+
+    h1 {
+        color: red;
+        font-size: 60px;
+    }
+
+}
+
+@media screen {
+
+    h1 {
+        color: red;
+    }
+    
+}
+
+@media print {
+
+    h1 {
+        color: red;
+    }
+    
+}
